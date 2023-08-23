@@ -1,11 +1,26 @@
 .card-container{
     display: flex;
     align-items: center;
+
 }
 .card-content{
     display: flex;
     align-items: center;
     padding-top: 5px;
-    padding-left: 25px;
+    padding-left: 50px;
+    padding-right: 150px;
+    flex-direction: column;
+}
+
+.card-title{
+    display: flex;
+    padding-top: 5px;
+    padding-right: 50px;
+}
+
+.image-container img{
+    width: 500px;
+    height: 300px; 
+    margin: 25px;
 }
 
