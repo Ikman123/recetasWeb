@@ -17,11 +17,11 @@ function Cartas(props) {
             Aproximadamente, se calcula media hora del lado de los huesos, hasta observar que comienzan a brotar pequeñas gotas de sangre del lado de la carne, es un buen momento para dar vuelta la tira.
             Una vez esté del lado de la carne solo dorar la misma para que quede crujiente y con color, bastará con unos diez minutos como mucho y estará listo para salir del fuego y reposar unos minutos.
             Paso 5 Servir y acompañar con papas fritas.'
-            icon1='https://cdn-icons-png.flaticon.com/128/2452/2452939.png'
-            icon2='https://cdn-icons-png.flaticon.com/128/823/823215.png'
-            icon3='https://cdn-icons-png.flaticon.com/128/2156/2156550.png'
-            icon4='https://cdn-icons-png.flaticon.com/128/1046/1046769.png'
-            icon5='https://cdn-icons-png.flaticon.com/128/869/869676.png'
+            icons={['https://cdn-icons-png.flaticon.com/128/2452/2452939.png',
+            'https://cdn-icons-png.flaticon.com/128/823/823215.png',
+            'https://cdn-icons-png.flaticon.com/128/2156/2156550.png',
+            'https://cdn-icons-png.flaticon.com/128/1046/1046769.png',
+            'https://cdn-icons-png.flaticon.com/128/869/869676.png']}
         />
         <Card
             title='Milanesa a la Napolitana'
@@ -39,13 +39,14 @@ function Cartas(props) {
                 Finalmente, por encima, ponemos nuestro queso.
                 Así, las vamos a llevar al horno 180º hasta que se derrita el queso y chorree por los costados generando el efecto más hermoso y tentador del universo.
                 Al sacarlas podemos tirar por encima unas pizcas de orégano y ¡listo!'
-            icon1='https://cdn-icons-png.flaticon.com/128/5572/5572048.png'
-            icon2='https://cdn-icons-png.flaticon.com/128/904/904183.png'
-            icon3='https://cdn-icons-png.flaticon.com/128/680/680940.png'
-            icon4='https://cdn-icons-png.flaticon.com/128/8118/8118986.png'
-            icon5='https://cdn-icons-png.flaticon.com/128/4139/4139325.png'
-            icon6='https://cdn-icons-png.flaticon.com/128/7013/7013969.png'
-            icon7='https://cdn-icons-png.flaticon.com/128/5589/5589665.png'
+            icons={['https://cdn-icons-png.flaticon.com/128/5572/5572048.png',
+            'https://cdn-icons-png.flaticon.com/128/904/904183.png',
+            'https://cdn-icons-png.flaticon.com/128/680/680940.png',
+            'https://cdn-icons-png.flaticon.com/128/8118/8118986.png',
+            'https://cdn-icons-png.flaticon.com/128/4139/4139325.png',
+            'https://cdn-icons-png.flaticon.com/128/7013/7013969.png',
+            'https://cdn-icons-png.flaticon.com/128/5589/5589665.png'
+            ]}
         />
         <Card
             title='Pastel de papas'
@@ -53,13 +54,15 @@ function Cartas(props) {
             descripcion='La receta del pastel de papa no es considerada de alta dificultad pero sí requiere de cierto tiempo de preparación y cocción (puede llegar a tomar más de una hora y media).
             Básicamente deben llevarse a cabo dos preparaciones: un puré de papas (o papa duquesa) por un lado y carne picada con cebolla por otro. A la carne picada además de cebolla brunoise se le puede añadir morrón, tomate y cebolla de verdeo. 
             Una vez que está todo listo, se deposita en una placa profunda para horno, colocando primero la carne y por encima el puré de papa; generalmente se gratina con queso rallado, con lo que toma un intenso color dorado. '
-            icon1='https://cdn-icons-png.flaticon.com/128/1652/1652127.png'
-            icon2='https://cdn-icons-png.flaticon.com/128/2215/2215848.png'
-            icon3='https://cdn-icons-png.flaticon.com/128/7471/7471966.png'
-            icon4='https://cdn-icons-png.flaticon.com/128/680/680940.png'
-            icon5='https://cdn-icons-png.flaticon.com/128/4139/4139319.png'
-            icon6='https://cdn-icons-png.flaticon.com/128/1202/1202125.png'
-            icon7='https://cdn-icons-png.flaticon.com/128/4714/4714323.png'
+            icons={[
+                'https://cdn-icons-png.flaticon.com/128/1652/1652127.png',
+                'https://cdn-icons-png.flaticon.com/128/2215/2215848.png',
+                'https://cdn-icons-png.flaticon.com/128/7471/7471966.png',
+                'https://cdn-icons-png.flaticon.com/128/680/680940.png',
+                'https://cdn-icons-png.flaticon.com/128/4139/4139319.png',
+                'https://cdn-icons-png.flaticon.com/128/1202/1202125.png',
+                'https://cdn-icons-png.flaticon.com/128/4714/4714323.png'
+            ]}
         />
         </div>
     );
