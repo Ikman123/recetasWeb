@@ -1,19 +1,20 @@
-
-
-/* Nadbar*/
+body{
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-textura-marmol_1035-12052.jpg?w=900&t=st=1693367239~exp=1693367839~hmac=3e4466b0684f0e9abf4fe0a6975f98a5620bf4bfca376a66edb2aeabf982def3");
+}
 
 .navbar {
-  background-color: #333;
-  color: #fff;
+  background-color: rgb(43, 43, 46);
+  opacity: 0.5;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
 }
 
-.logo {
-  font-size: 24px;
-  font-weight: bold;
+.logo img{
+  max-width: 50px;
+  height: auto;
+  opacity: 1;
 }
 
 .nav-list {
@@ -28,17 +29,13 @@
   transition: color 0.3s;
 }
 
-.nav-list li a:hover {
-  color: #f0f0f0;
-}
-
-/*Footer*/
 
 .footer {
   position:relative;
   bottom: 0;
   width: 100%;
-  background-color: #333;
+  background-color: rgb(43, 43, 46);
+  opacity: 0.5;
   color: #fff;
   text-align: center;
 }

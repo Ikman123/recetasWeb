@@ -1,30 +1,35 @@
 .card-container {
     display: flex;
     align-items: center;
-    min-height: 300px; 
-    border: 5px solid rgb(126, 49, 14);
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-madera-natural_24837-269.jpg?w=740&t=st=1693366372~exp=1693366972~hmac=602d6989a3b6b2dc1c2ede28b1504462370550d8c6848a37009b472b9850d624');
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card-content {
+    background-image: url('https://img.freepik.com/foto-gratis/espacio-diseno-papel-textura-fondo_53876-42312.jpg?size=626&ext=jpg&uid=R99278105&ga=GA1.2.348762465.1681337086&semt=ais');
     display: flex;
     align-items: center;
-    padding: 20px; 
+    padding: 20px;
+    margin: 15px; 
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
+    width: 100%;
 }
 
 .image-container img {
     max-width: 350px; 
     height: auto;
     margin: 15px;
-    border: 5px solid rgb(126, 49, 14);
-}
-.card-icon img {
-    width: 40px;
-    padding-right: 15px;
 }
 
-.title-ingredientes{
+.card-icon img {
+    width: 40px;
+    height: 100%;
+    padding: 10px;
+}
+
+.title-ingredientes {
     margin: 5px;
 }
 
@@ -34,12 +39,9 @@
         align-items: center;
     }
     .card-content {
-        padding: 10px; 
-    }
-
-    .card-title,
-    h4 {
-        padding-right: 20px; 
+        padding: 10px;
+        width: 80%;
+        margin: 10px;
     }
 }
 
@@ -49,11 +51,11 @@
         align-items: center;
     }
     .card-content {
-        padding: 5px; 
+        padding: 5px;
+        width: 80%;
+        margin: 5px;
     }
-
     .image-container img {
         margin: 10px;
     }
-
 }
